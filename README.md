@@ -1,4 +1,4 @@
-# VueCordova_with_Vuex_VueRouter
+# VueCordovaWebpackTemplate
 
 ##How to use:##
 1. run: npm install
@@ -21,10 +21,7 @@ npm run build && cordova build ios --buildFlag='-UseModernBuildSystem=0'
 const path = require("path");  
 module.exports = {  
   baseUrl: '',  
-  outputDir: 'www',  
-  pluginOptions: {  
-    cordovaPath: 'src-cordova'  
-  }  
+  outputDir: 'www'
 };  
 
 6. add '<script type="text/javascript" src="cordova.js"></script>' to index.html in public folder
