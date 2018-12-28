@@ -15,7 +15,7 @@ npm run build && cordova build ios --buildFlag='-UseModernBuildSystem=0'
 ##To create a project using the vue and cordova cli do the following:##
 1. Create Vue project using Cli via command ('vue create my-project') or ui ('vue ui')
 2. Create Cordova Project ('cordova create MyApp')
-3. copy content of folder containing cordova project into vue Project
+3. copy contents of folder containing cordova project into vue Project
 4. Create a vue.config.js file and put into root of vue Project
 5. Add the following to vue.config.js:  
 const path = require("path");  
